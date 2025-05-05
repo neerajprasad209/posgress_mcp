@@ -13,7 +13,7 @@ load_dotenv()
 
 async def main():
     # Initialize Gemini
-    client = genai.Client(api_key="AIzaSyBmZ1V57IqyV3TTUWvyXdTjhEjHoH-Nosg")
+    client = genai.Client(api_key=os.getenv("GENAI_API_KEY"))  # Set your API key here
 
     # Configure FastMCP server process
     server_params = StdioServerParameters(
