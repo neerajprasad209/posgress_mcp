@@ -185,12 +185,6 @@ mcp/
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome! Please fork the repository and submit a pull request with your enhancements. For major changes, open an issue first to discuss your proposed modifications.([Make a README][3])
-
----
-
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
